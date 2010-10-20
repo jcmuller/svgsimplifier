@@ -20,7 +20,6 @@ initialize	./src/svg.rb	/^  def initialize(source)$/;"	f	class:SVG
 initialize	./src/svg_point.rb	/^	def initialize(type, p = nil, r1 = nil, r2 = nil, keep = true)$/;"	f	class:SVGPoint
 ramer_douglas_peucker	./src/svg.rb	/^  def ramer_douglas_peucker(pointList, epsilon)$/;"	f
 simplify	./src/svg.rb	/^  def simplify(epsilon = 1)$/;"	f
-slope	./src/point.rb	/^	def slope(otherPoint)$/;"	f	class:Point
 to_path_array	./src/svg.rb	/^  def to_path_array(path)$/;"	f
 to_path_point_array	./src/svg.rb	/^  def to_path_point_array(path)$/;"	f
 to_s	./src/point.rb	/^	def to_s$/;"	f	class:Point
