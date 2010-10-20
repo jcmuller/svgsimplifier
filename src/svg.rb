@@ -131,7 +131,13 @@ class SVG
 
   def calculate_distance(point_one, point_two)
     squares_added = (point_two.y - point_one.y) ** 2 + (point_two.x - point_one.x) ** 2
-    distance = Math.sqrt(squares_added)
+
+    distance = 0
+
+    begin
+      distance = Math.sqrt(squares_added)
+    rescue
+    end
 
     return distance
   end
